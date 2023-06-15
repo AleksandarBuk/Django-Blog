@@ -1,2 +1,2 @@
-# WebStore
-This is a website is going to be creted with PYthon, MongoDB, and SQL
+# Blog
+  This is a blog project created using Django Framework 
