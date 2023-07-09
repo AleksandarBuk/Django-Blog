@@ -44,7 +44,7 @@ class PostCreateView(CreateView):
 	fields = ['title', 'content']
 
 	def form_valid(self, form):
-		form.instance.author = self.request.user
+		form.instance.author_id = self.request.user
 		return super().form_valid(form)
 
 class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
