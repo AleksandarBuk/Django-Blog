@@ -1,2 +1,2 @@
 # Blog
-  This is a blog project created using Django Framework 
+  Django Project in progress. :=================85%==:
