@@ -1,2 +1,2 @@
 # Blog
-  Django Project in progress. :=================85%==:
+  Django Project in progress. :===================100%:
