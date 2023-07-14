@@ -86,6 +86,23 @@ DATABASES = {
     }
 }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'techwiseDB',
+#         'USER': 'Alex',
+#         'PASSWORD': '#Ifflahwf71.12',
+#         'HOST': 'techwisedb.caq7lch6a6m6.eu-north-1.rds.amazonaws.com',
+#         'PORT': '5432',
+#     }
+# }
+
+# DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+# AWS_STORAGE_BUCKET_NAME = 'techwisebucket'
+# AWS_ACCESS_KEY_ID = 'AKIAQZTMHLOFP3UJUQP4'
+# AWS_SECRET_ACCESS_KEY = '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'
+# AWS_S3_REGION_NAME = 'US East (N. Virginia) us-east-1'
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
@@ -142,7 +159,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'aleksandar.buk@gmail.com'
+# EMAIL_HOST_USER = 'aleksandar.buk@gmail.com'
 
 # EMAIL_HOST_USER = os.environ.get('MAIL_USERNAME')
 EMAIL_HOST_PASSWORD = os.environ.get('MAIL_PASSWORD')
