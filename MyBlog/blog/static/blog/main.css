@@ -29,6 +29,7 @@ ul {
 }
 
 .content-section {
+  max-width: 1800px;
   background: #ffffff;
   padding: 10px 20px;
   border: 1px solid #dddddd;
