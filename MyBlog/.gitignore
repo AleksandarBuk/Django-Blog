@@ -1,8 +1,9 @@
 __pycache__/
-.idea/
+.idea
 .env
 venv
 datadump.json
 initial_data.json
 requirements.txt
 docker-compose.yml
+/static
